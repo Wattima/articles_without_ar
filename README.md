@@ -47,6 +47,7 @@ magazine: Returns the magazine of the article.
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify this code for your own purposes.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 Copyright (c) 2023 **Daryl Wattima**
 
