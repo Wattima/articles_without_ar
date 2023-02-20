@@ -7,10 +7,15 @@ Once you've run the run.rb file, you can interact with the code by following the
 
 ### Author
 initialize(name): Creates a new author with the given name.
+
 name: Returns the name of the author.
+
 articles: Returns an array of all the articles written by the author.
+
 magazines: Returns a unique array of all the magazines the author has contributed to.
+
 add_article(magazine, title): Creates a new article with the given title and associates it with the author and the given magazine.
+
 topic_areas: Returns a unique array of all the topic areas the author has written about.
 
 ### Magazine
