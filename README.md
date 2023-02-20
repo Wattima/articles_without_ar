@@ -3,7 +3,7 @@ This is a simple Ruby project that allows you to track articles and authors for 
 
 
 ## How to Use
-Once you've run the run.rb file, you can interact with the code by following the prompts in the terminal. The code includes the following classes and methods:
+Once you've run the run.rb file in the lib folder, you can interact with the code by following the prompts in the terminal. The code includes the following classes and methods:
 
 ### Author
 initialize(name): Creates a new author with the given name.
