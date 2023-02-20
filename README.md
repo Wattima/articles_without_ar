@@ -20,23 +20,35 @@ topic_areas: Returns a unique array of all the topic areas the author has writte
 
 ### Magazine
 initialize(name, category): Creates a new magazine with the given name and category.
+
 name: Returns the name of the magazine.
+
 category: Returns the category of the magazine.
+
 all: Returns an array of all the magazines that have been created.
+
 find_by_name(name): Returns the first magazine object that matches the given name.
+
 article_titles: Returns an array of all the article titles for the magazine.
+
 contributors: Returns an array of all the authors who have written for the magazine.
 
 ### Article
 initialize(author, magazine, title): Creates a new article with the given author, magazine, and title.
+
 title: Returns the title of the article.
+
 all: Returns an array of all the articles that have been created.
+
 author: Returns the author of the article.
+
 magazine: Returns the magazine of the article.
 
 
 ## License
 This project is licensed under the MIT License. Feel free to use and modify this code for your own purposes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+Copyright (c) 2023 **Daryl Wattima**
 
 
 
