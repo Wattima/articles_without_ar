@@ -103,7 +103,7 @@ When I call the `article_titles` method,
 Then it should return an array string of the titles of
 
 #### Pseudo Code
-1. Create a class called Magazine
+1. Start. Create a class called Magazine
 2. Add an initialize method that takes two parameters, name and category
 3. Set instance variables called name and category to the name and category parameters
 4. Add getter methods called name and category that return the values of name and category
@@ -111,6 +111,7 @@ Then it should return an array string of the titles of
 6. Add an instance method called article_titles that returns an array string of the titles of all articles written for that magazine
 7. Add an instance method called contributors that returns an array of Author instances who have written for this magazine
 8. Add a class method called find_by_name that takes a string name and returns the first Magazine object that matches
+9. end
 
 
 ### Article
