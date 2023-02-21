@@ -1,5 +1,5 @@
 # Magazine Article Tracker
-This is a simple Ruby project that allows you to track articles and authors for various magazines. It includes three classes: Author, Magazine, and Article.
+This is a Magazine Management System that allows users to manage magazines, authors, and articles. The system allows users to create new magazines, authors, and articles, as well as view and edit existing ones.
 
 
 ## How to Use
@@ -42,30 +42,20 @@ Then it should return a unique array of strings with the categories of the magaz
 
 #### Pseudo Code
 class Author
-  def initialize(name)
-    @name = name
-  end
-
-  def name
-    @name
-  end
-
-  def articles
-    # returns an array of Article instances the author has written
-  end
-
-  def magazines
-    # returns a unique array of Magazine instances for which the author has contributed to
-  end
-
-  def add_article(magazine, title)
-    # creates a new Article instance and associates it with that author and that magazine
-  end
-
-  def topic_areas
-    # returns a unique array of strings with the categories of the magazines the author has contributed to
-  end
-end
+1. Start.Create a class called Author
+2. Add an initialize method that takes one parameter, name
+3. Set an instance variable called name to the name parameter
+4. Add a getter method called name that returns the value of name
+5. Add an instance variable called articles set to an empty array
+6. Add an instance variable called magazines set to an empty array
+7. Add an instance method called add_article that takes two parameters, magazine and title
+8. Create a new Article instance with the author, magazine, and title parameters
+9. Add the Article instance to the articles array of the author
+10.Add the magazine to the magazines array of the author
+11. Add an instance method called articles that returns the articles array of the author
+12. Add an instance method called magazines that returns the magazines array of the author
+13. Add an instance method called topic_areas that returns a unique array of strings with the categories of the magazines the author has contributed to.
+14. end
 
 
 ### Magazine
@@ -113,48 +103,14 @@ When I call the `article_titles` method,
 Then it should return an array string of the titles of
 
 #### Pseudo Code
-class Magazine
-  def initialize(name, category)
-    @name = name
-    @category = category
-  end
-
-  def name
-    @name
-  end
-
-  def category
-    @category
-  end
-
-  def name=(name)
-    @name = name
-  end
-
-  def category=(category)
-    @category = category
-  end
-
-  def self.all
-    # returns an array of all Magazine instances
-  end
-
-  def self.find_by_name(name)
-    # returns the first magazine object that matches the name
-  end
-
-  def article_titles
-    # returns an array of the titles of all articles written for that magazine
-  end
-
-  def contributing_authors
-    # returns an array of authors who have written more than 2 articles for the magazine
-  end
-
-  def contributors
-    # returns an array of Author instances who have written for this magazine
-  end
-end
+1. Create a class called Magazine
+2. Add an initialize method that takes two parameters, name and category
+3. Set instance variables called name and category to the name and category parameters
+4. Add getter methods called name and category that return the values of name and category
+5. Add a class variable called all set to an empty array
+6. Add an instance method called article_titles that returns an array string of the titles of all articles written for that magazine
+7. Add an instance method called contributors that returns an array of Author instances who have written for this magazine
+8. Add a class method called find_by_name that takes a string name and returns the first Magazine object that matches
 
 
 ### Article
