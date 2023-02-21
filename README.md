@@ -139,50 +139,12 @@ Author#add_article(magazine, title) takes a Magazine instance and a string title
 Author#topic_areas returns a unique array of category strings for Magazine instances that this author has contributed to.
 
 #### Pseudo code
-class Magazine
-  @@all = []
-
-  def initialize(name, category)
-    # set name and category instance variables
-    # add this instance to @@all
-  end
-
-  def self.all
-    # return @@all array
-  end
-
-  def name
-    # return name instance variable
-  end
-
-  def category
-    # return category instance variable
-  end
-
-  def name=(new_name)
-    # set name instance variable to new_name
-  end
-
-  def category=(new_category)
-    # set category instance variable to new_category
-  end
-
-  def contributors
-    # return array of authors who have written for this magazine
-  end
-
-  def self.find_by_name(name)
-    # return first magazine instance with matching name
-  end
-
-  def article_titles
-    # return array of article titles for this magazine
-  end
-
-  def contributing_authors
-    # return array of authors who have written more than 2 articles for this magazine
-  end
-end
+1. Create a class called Article
+2. Add an initialize method that takes three parameters: author, magazine, and title
+3. Set instance variables called author, magazine, and title to the author, magazine, and title parameters
+4. Add getter methods called author, magazine, and title that return the values of author, magazine, and title
+5. Add a class variable called all set to an empty array
+6. Add a class method called all that returns an array of all Article instances
 
 
 
